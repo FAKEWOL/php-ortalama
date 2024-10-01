@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+          $not1 = 100;
+          $not2 = 100;
+
+          $ortalama = (($not1 + $not2) / 2);
+          
+          if ($ortalama < 50) {
+              echo "kaldı";
+          } else {
+              echo "geçti <br>";
+               if ($ortalama >= 85) {
+                  echo " takdir ile geçti";
+              } elseif ($ortalama >= 70) {
+                  echo " teşekkür ile geçti";
+              }
+          }
+    ?>
+</body>
+</html>
